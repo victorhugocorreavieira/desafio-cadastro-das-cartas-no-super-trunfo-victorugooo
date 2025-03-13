@@ -11,19 +11,19 @@ int main()
 
     //recebendo os atributos da primeira carta
     printf("Digite o nome da sua cidade:  ");
-    scanf("%s\\n", cidade);
+    scanf("%s", cidade);
 
     printf("Digite o estado da sua cidade: ");
-    scanf("%s\\n", estado);
+    scanf("%s", estado);
 
     printf("Qual a população da sua cidade? ");
-    scanf("%i\\n", &populacao);
+    scanf("%i", &populacao);
 
     printf("Quantos pontos turísticos a sua cidade possui? ");
-    scanf("%i\\n", &pontostur);
+    scanf("%i", &pontostur);
 
     printf("Qual a área da sua cidade? ");
-    scanf("%f\\n", &area);
+    scanf("%f", &area);
 
     printf("Qual o PIB da sua cidade? ");
     scanf("%f", &pib);
